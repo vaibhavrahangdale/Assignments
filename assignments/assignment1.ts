@@ -9,7 +9,7 @@ interface PersonData {
   occupation: string;
   favouriteColor: string;
   currentYear: number;
-  followers: number;
+  followers: string;
   movieRating: number;
   bloodType: string;
   bookTitle: string;
@@ -32,7 +32,7 @@ let data: PersonData = {
   occupation: "Software Engineer",
   favouriteColor: "Blue",
   currentYear: 2023,
-  followers: 1000000,
+  followers: "1,000,000",
   movieRating: 7.5,
   bloodType: "A",
   bookTitle: "To Kill a Mockingbird",
